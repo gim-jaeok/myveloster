@@ -11,127 +11,62 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: 자네가 혹시 벨로스터를 좋아한다면
+    text: 우리는 지금부터 친구일세
+    button: 더 자세히 보고 싶다면?
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "이 점이 뛰어나다"
+    text: "벨로스터는 이렇게 잘난 차입니다"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "개성있는 스타일"
+        desc: "운전석 쪽은 문 1짝, 조수석 쪽은 문 2짝이라는 국내 유일무이의 비대칭형 도어! 쿠페형 라인과 탱탱한 엉덩이도 빼놓을 수 없죠"
+        icon: fas fa-car #find more at https://fontawesome.com/icons
+      - title: "경쾌한 성능"
+        desc: "201마력의 1.6L 터보 엔진과 6단 수동변속기의 조합이 선사하는 재빠른 가속성능은 물론 탄탄한 서스펜션과 낮은 무게중심에서 나오는 안정적인 코너링도 즐길 수 있습니다"
+        icon: far fa-gauge-max
+      - title: "해치백다운 실용성"
+        desc: "트렁크 공간이 아쉬우세요? 걱정할 것 없습니다. 뒷좌석을 접으면 넉넉하게 만들 수 있죠. 해치백의 장점입니다!"
+        icon: fas fa-suitcase-rolling
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "갤러리"
+    text: "벨롱이와 함께 한 순간들"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "닫기"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "타임라인"
+    text: "우리가 걸어온 길"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "벨롱이, 세상에 태어나다"
+        year: "2018"
+        desc: "현대자동차 공장에서 벨롱이가 태어났습니다. 축하해주세요!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "나를 만나다"
+        year: "2021"
+        desc: "케이카 부산직영점에서 우리는 만났습니다. 이때부터였어요, 우리의 이야기는."
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "앞으로의 이야기를 기대해주세요!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "우리의 이야기"
+    text: "나와 벨로스터"
+    body: "케이카를 통해 만난 우리, 너무 마음에 들어서 서울에서 부산까지 내려가 계약하고 차를 가져왔습니다. 무광 쥐색의 색깔도 직접 눈으로 보니 사진보다 실물이 훨씬 멋있어서 인상적이었던 기억이 나네요. 33,000km쯤 탄 중고차로 인수했지만 저에게는 소중한 첫차, 잊을 수 없는 첫차입니다. 앞으로도 오래오래 함께 하고 싶어요."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "연락하기"
+    text: "문의사항은 메일 주세요!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -142,7 +77,7 @@ en: &DEFAULT_EN
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "메일 보내기"
 
   footer:
     legal: "Privacy Policy"
